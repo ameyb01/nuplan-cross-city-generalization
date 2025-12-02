@@ -69,13 +69,14 @@ Each failure contains:
 * violation type
 * replay snapshot
 
-4. Visualization Pipeline
+#### 4. Visualization Pipeline
 
 * scenario failure heatmaps
 * cross-city confusion matrices
 * trajectory deviation plots
 * reliability diagrams
 * scenario replays
+
 
 
 
