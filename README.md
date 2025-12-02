@@ -7,10 +7,10 @@
 End-to-end (E2E) motion planners such as NuPlan’s MLPlanner achieve strong performance when evaluated in the same city they were trained on (Boston → Boston).
 But performance collapses under distribution shift:
 
-different road topology
-different traffic conventions
-different multi-agent behavior
-left-hand vs right-hand driving
+*different road topology
+*different traffic conventions
+*different multi-agent behavior
+*left-hand vs right-hand driving
 
 This project builds a diagnostic pipeline to study cross-city failures and uncertainty miscalibration in E2E planners.
 
@@ -76,4 +76,5 @@ cross-city confusion matrices
 trajectory deviation plots
 reliability diagrams
 scenario replays
+
 
