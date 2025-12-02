@@ -1,8 +1,8 @@
 ﻿# NuPlan Cross-City Generalization
 
-Cross-City Generalization and Uncertainty Failures in End-to-End Motion Planners (NuPlan)
+## Cross-City Generalization and Uncertainty Failures in End-to-End Motion Planners (NuPlan)
 
-Motivation
+### Motivation
 
 End-to-end (E2E) motion planners such as NuPlan’s MLPlanner achieve strong performance when evaluated in the same city they were trained on (Boston → Boston).
 But performance collapses under distribution shift:
@@ -76,3 +76,4 @@ cross-city confusion matrices
 trajectory deviation plots
 reliability diagrams
 scenario replays
+
