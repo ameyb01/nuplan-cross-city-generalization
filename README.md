@@ -77,6 +77,45 @@ Each failure contains:
 * reliability diagrams
 * scenario replays
 
+#### 5.Current Implementation Status (Jan 2026)
+
+This repository currently implements the offline diagnostic layer of the proposed research agenda, focusing on planner behavior inspection and uncertainty visualization.
+
+Implemented components include:
+
+* Offline trajectory dataset extraction from nuPlan mini logs
+
+* Learning-based planners:
+
+** baseline ego-only planner
+
+** agent-aware planner
+
+** uncertainty-aware planner (MC Dropout)
+
+* Planner rollout generation in ego-centric coordinates
+
+* Static and animated visualizations comparing:
+
+** ego past
+
+** ground-truth future
+
+** predicted future
+
+** predictive uncertainty
+
+* Interactive Streamlit dashboard for:
+
+** timestep inspection
+
+** uncertainty evolution
+
+** qualitative failure analysis
+
+These tools form the foundation for analyzing planner intent, confidence, and failure modes prior to closed-loop simulation.
+
+
 
 
 
