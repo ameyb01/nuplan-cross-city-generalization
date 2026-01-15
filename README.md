@@ -87,7 +87,7 @@ Implemented components include:
 
 * Learning-based planners:
 
-** baseline ego-only planner
+**baseline ego-only planner**
 
 ** agent-aware planner
 
@@ -114,6 +114,7 @@ Implemented components include:
 ** qualitative failure analysis
 
 These tools form the foundation for analyzing planner intent, confidence, and failure modes prior to closed-loop simulation.
+
 
 
 
