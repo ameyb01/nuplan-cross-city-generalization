@@ -83,37 +83,29 @@ This repository currently implements the offline diagnostic layer of the propose
 
 Implemented components include:
 
-* Offline trajectory dataset extraction from nuPlan mini logs
+- Offline trajectory dataset extraction from nuPlan mini logs
 
-* Learning-based planners:
+- Learning-based planners:
+  - **Baseline ego-only planner**
+  - **Agent-aware planner**
+  - **Uncertainty-aware planner (MC Dropout)**
 
-**baseline ego-only planner**
+- Planner rollout generation in ego-centric coordinates
 
-** agent-aware planner
+- Static and animated visualizations comparing:
+  - **Ego past**
+  - **Ground-truth future**
+  - **Predicted future**
+  - **Predictive uncertainty**
 
-** uncertainty-aware planner (MC Dropout)
-
-* Planner rollout generation in ego-centric coordinates
-
-* Static and animated visualizations comparing:
-
-** ego past
-
-** ground-truth future
-
-** predicted future
-
-** predictive uncertainty
-
-* Interactive Streamlit dashboard for:
-
-** timestep inspection
-
-** uncertainty evolution
-
-** qualitative failure analysis
+- Interactive Streamlit dashboard for:
+  - **Timestep inspection**
+  - **Uncertainty evolution**
+  - **Qualitative failure analysis**
 
 These tools form the foundation for analyzing planner intent, confidence, and failure modes prior to closed-loop simulation.
+
+
 
 
 
